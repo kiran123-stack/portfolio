@@ -418,15 +418,14 @@ nav {
             width: 100%;
             padding: 60px 20px !important;
         }
-.swiper-slide {
-    width: 500px !important; /* Define explicit width */
-    height: auto !important;
-}
+
 
         .swiper-slide {
             display: flex;
             justify-content: center;
             height: auto !important;
+            width: 500px !important; /* Define explicit width */
+    height: auto !important;
         }
 
         .project-card {
