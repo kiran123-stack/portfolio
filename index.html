@@ -13,6 +13,7 @@
 </head>
 <body>
     <span id="cursor">move with me</span>
+ <div class="cursor-follower"></div>
 
     <header id="hero">
         <nav class="container">
@@ -94,39 +95,48 @@
         </ul>
     </section>
 
-    <section id="projects" class="container section-padding">
+      <section id="projects" class="container section-padding">
         <h2>Featured Projects</h2>
-        <div class="project-grid">
-            
-            <div class="project-card">
-                <h3>Netflix Landing Page Clone (Modified)</h3>
-<p>A **responsive recreation of the Netflix landing page**, built with semantic HTML5 and modern CSS. This modified version focuses on replicating the complex multi-section layout, the sign-up flow, and the dynamic FAQ section, demonstrating mastery of **Flexbox/Grid** and adaptive design principles.</p>
-<div class="technologies">HTML5, CSS3, Flexbox/Grid, Responsive Design</div>
-<div class="project-links">
-    <a href="https://cine-sphere-one.vercel.app/" target="_blank" class="link-btn">Live Demo</a>
-    <a href="https://github.com/kiran123-stack/movieX" target="_blank" class="link-btn">GitHub Repo</a>
-</div>
-            </div>
-
-            <div class="project-card">
-                <h3>2. Modern Landing Page</h3>
-                <p>A **product-focused landing page** with smooth CSS animations and a clear call-to-action. Implemented with CSS Flexbox/Grid for a pixel-perfect layout on all devices.</p>
-                <div class="technologies">HTML5, CSS3 (Flex/Grid), Animations</div>
-                <div class="project-links">
-                    <a href="https://self-made-project.vercel.app/" target="_blank" class="link-btn">Live Demo</a>
-                    <a href="https://github.com/kiran123-stack/self-made-project" target="_blank" class="link-btn">GitHub Repo</a>
+        <div class="swiper projectSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <h3>Netflix Landing Page Clone (Modified)</h3>
+                        <p>A <strong>responsive recreation of the Netflix landing page</strong>, built with semantic HTML5 and modern CSS. This modified version focuses on replicating the complex multi-section layout, the sign-up flow, and the dynamic FAQ section, demonstrating mastery of <strong>Flexbox/Grid</strong> and adaptive design principles.</p>
+                        <div class="technologies">HTML5, CSS3, Flexbox/Grid, Responsive Design</div>
+                        <div class="project-links">
+                            <a href="https://cine-sphere-one.vercel.app/" target="_blank" class="link-btn">Live Demo</a>
+                            <a href="https://github.com/kiran123-stack/movieX" target="_blank" class="link-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <h3>Modern Landing Page</h3>
+                        <p>A <strong>product-focused landing page</strong> with smooth CSS animations and a clear call-to-action. Implemented with CSS Flexbox/Grid for a pixel-perfect layout on all devices.</p>
+                        <div class="technologies">HTML5, CSS3 (Flex/Grid), Animations</div>
+                        <div class="project-links">
+                            <a href="https://self-made-project.vercel.app/" target="_blank" class="link-btn">Live Demo</a>
+                            <a href="https://github.com/kiran123-stack/self-made-project" target="_blank" class="link-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <h3>To-Do List Application</h3>
+                        <p>A cross-platform <strong>To-Do List App</strong> developed using <strong>React Native</strong>. Features include adding, deleting, and marking tasks as complete, showcasing a fundamental understanding of state management.</p>
+                        <div class="technologies">React Native, JavaScript, State Management</div>
+                        <div class="project-links">
+                            <a href="https://github.com/kiran123-stack/my-first-app" target="_blank" class="link-btn">GitHub Repo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="project-card">
-                <h3>3. To-Do List Application</h3>
-                <p>A cross-platform **To-Do List App** developed using **React Native**. Features include adding, deleting, and marking tasks as complete, showcasing a fundamental understanding of state management.</p>
-                <div class="technologies">React Native, JavaScript, State Management</div>
-                <div class="project-links">
-                    <a href="https://github.com/kiran123-stack/my-first-app" target="_blank" class="link-btn">GitHub Repo</a>
-                </div>
-            </div>
-
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
